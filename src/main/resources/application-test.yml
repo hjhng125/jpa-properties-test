@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: false
+    show-sql: true
+  config:
+    activate:
+      on-profile: test
